@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.officeImg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.officeContainer{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.officeContainers{
+    position: relative;
+    height: 33%;
+    width: 100%;
+}
+
+/* .officeDown{
+    background-color: yellow;
+} */
+
+#lockMarker{
+    /* background-color: orange; */
+    height: 100px;
+    width: 100px;
+    margin-left: 330px;
+    margin-top: 40px;
+}
+
+#imgLock{
+    height: 300px;
+    width: 300px;
+    display: none;
+    position: absolute;  
+}
+
+.officeMiddle{
+    display: flex;
+    justify-content: center;
+}
+
+#numInputs{
+    /* background-color: yellow; */
+    height: 300px;
+    width: 260px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: none;
+}
+
+.num{
+    text-align: center;
+    /* background-color: red; */
+    height: 30px;
+    width: 30px;
+    font-size: 26px;
+}
+
+.lastNum{
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+.spacingDivs{
+    height: 33%;
+}
+
+#closingTag{
+    cursor: pointer;
+}
+
+#closingTag:hover{
+color: rgb(108, 105, 105);
+}
+
+#clue1{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    left: 380px;
+    top: 300px;
+    display: none;
+}
+
+
+
+
+
